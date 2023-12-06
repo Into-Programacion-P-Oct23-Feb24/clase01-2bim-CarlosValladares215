@@ -15,7 +15,7 @@ public class Ejemplo04 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        // el -=2 significa que decrementa en 2
         for (int i = 20; i >= 0; i-=2) {
             System.out.printf("%d\n", i);
         }
